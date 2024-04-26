@@ -1,4 +1,4 @@
-FROM maven:3.9.3-amazoncorretto-20
+FROM ubuntu-latest
 LABEL authors="ykkai"
 WORKDIR /opt/app
 

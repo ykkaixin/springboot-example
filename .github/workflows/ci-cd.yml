@@ -16,7 +16,7 @@ env:
 jobs:
   deploy:
     name: Deploy
-    runs-on: ["maven:3.9.3-amazoncorretto-20"]
+    runs-on: ["ubuntu-latest"]
     steps:
       - name: Checkout source
         uses: actions/checkout@v3
